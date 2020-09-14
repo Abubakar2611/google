@@ -70,13 +70,11 @@ body,h1,h2,h3,h4,h5,h6,span,a,p{
 /*main css*/
 .main-content{}
 .all-center{}
-.google-logo{
-    background: url(/img/google_logo.png) no-repeat center center;
 
-}
 .google-logo {
-    background: url(/img/google_logo.png) no-repeat center center;
-        background-size: auto;
+    background: url(img/google_logo.png) no-repeat center center;
+   
+   
     width: 436px;
     margin: auto;
     height: 129px;
