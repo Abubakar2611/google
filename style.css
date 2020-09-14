@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.p-bg{
+    background: #f7f9ff;
+}
+
+/*main css*/
+body,h1,h2,h3,h4,h5,h6,span,a,p{
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background:
+    padding: 13px 0;
+}
+.header-menu{}
+.header-menu ul{
+    display: block;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 16px;
+}
+.header-menu ul li a {
+    color: #666;
+    font-size: 19px;
+}
+.header-menu ul li span {
+    background: #5098e6;
+    color: #fff;
+    padding: 10px 23px;
+    border-radius: 2px;
+}
+
+/*main css*/
+.main-content{}
+.all-center{}
+.google-logo{
+    background: url(/img/google_logo.png) no-repeat center center;
+
+}
+.google-logo {
+    background: url(/img/google_logo.png) no-repeat center center;
+        background-size: auto;
+    width: 436px;
+    margin: auto;
+    height: 129px;
+    position: relative;
+    top: 156px;
+    background-size: 339px 118px;
+}
+.google-logo h3 {
+    position: absolute;
+    left: ;
+    right: 6px;
+    bottom: 0px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #4285f4;
+}
+
+
+#search {
+   
+        padding: 20px;
+        width: 681px;
+        border: 1px solid #e6e0e0;
+        position: relative;
+        top: 169px;
+        border-radius: 40px;
+    
+}
+#search:focus{
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.5);
+    border:1px solid #6278df ;
+}
+
+.s-icon span {
+    position: absolute;
+    font-size: 22px;
+    top: 170px;
+    color: rgb(121, 117, 117);
+    right: 290px;
+    background: #fff;
+    background-size: -47px;
+    width: 51px;
+    height: 26px;
+    margin-top: ;
+    padding: 15px;
+    transition: .4s;
+    border-radius: 133px;
+    border-top-left-radius: 133px;
+    border-top-right-radius: 133px;
+    border-bottom-right-radius: 133px;
+    border-bottom-left-radius: 133px;
+
+}
+.s-icon span:hover{
+    background: rgb(62, 110, 212);
+    border-radius: 133px;
+        border-top-left-radius: 133px;
+        border-top-right-radius: 133px;
+        border-bottom-right-radius: 133px;
+        border-bottom-left-radius: 133px;
+        border: 2px solid #464444;
+}
+
+.google-form{
+    position: relative;
+}
+.submit-btn {
+    position: absolute;
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    top: 245px;
+    right: 440px;
+    transition: .4s;
+    
+}
+.submit-btn:hover{
+    background: rgb(94, 91, 91);
+    color: #ebdfdf;
+    border-radius: 10px;
+
+}
+.submit-button {
+    position: absolute;
+    background: #f5f1f1 none repeat scroll 0 0;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 15px 32px;
+    text-align: center;
+    top: 245px;
+    right: 675px;
+    transition: .4s;
+    
+}
+.submit-button:hover{
+    background: rgb(94, 91, 91);
+    color: #ebdfdf;
+    border-radius: 10px;
+
+}
+.lng {
+    
+    margin-top: 36px;
+    position: absolute;
+    top: 294px;
+    right: 500px;
+    font-size: 20px;
+    color: #b0a8a8;
+}
+.lng a{
+    color: #1122CC;
+    
+}
+
+/*footer css*/
+.footer{
+        background: #ddd;
+        position: relative;
+        top: 475px;
+        padding:12px 0;
+}
+.footer-first {
+
+    
+
+}
+.footer-first h4{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.footer-last{
+   
+        background: #ddd;
+        border-top: 1px solid #d7c5c5;
+        padding: 17px 0;
+        margin-top: 475px;
+}
+.f-left{}
+.f-left ul{
+    display: block;
+}
+.f-left ul li{
+    display: inline-block;
+    margin-left: 12px;
+
+}
+.f-left ul li a{
+    color: rgb(39, 37, 37);
+
+}
+
+.f-right{}
+.f-right ul{
+    display: block;
+}
+.f-right ul li{
+    display:inline-block;
+    margin-left: 12px;
+}
+.f-right ul li a{
+    color: rgb(39, 37, 37);
+}
